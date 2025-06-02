@@ -1,0 +1,75 @@
+.RegisterWrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    background-color: #e8e8e8;
+    padding: 3rem;
+}
+.RegisterLeft{
+    padding: 1rem;
+    width: 25%;
+}
+.RegisterLeftLogo{
+    font-size: 4rem;
+    background:linear-gradient(to right, #c33763, #1d2571);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.RegisterRight{
+    width: 40%;
+
+}
+.RegisterForm{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    gap: .7rem;
+}
+.RegisterInput{
+    height: 2rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: .1rem #e8e8e8 solid;
+    padding: 1rem;
+}
+
+.RegisterSignbtn,
+.Registerbtn{
+    height: 6vh;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+}
+.Registerbtn{
+    border: none;
+    width: 50%;
+    background-color:#1d2571;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.topbar_link{
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .RegisterLeft{
+        display: none;
+    }
+}
+@media screen and (min-width: 801px) and (max-width:1100px){
+
+    .RegisterLeft{
+        padding: 1rem;
+        width: 50%;
+    }
+}

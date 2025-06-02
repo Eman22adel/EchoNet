@@ -1,0 +1,35 @@
+.profile_container{
+    display: flex;
+}
+.profile_right{
+    flex: 11;
+    padding: 1rem;
+}
+.profile_righttop{
+    position: relative;
+    margin-bottom: 9rem;
+}
+.profile_topbg{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+.profile_topperson{
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.profile_topperson img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: .2rem #fff solid;
+    object-fit: cover;
+}
+
+.profile_rightbottom{
+    display: flex;
+}

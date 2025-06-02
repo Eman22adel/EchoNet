@@ -1,0 +1,170 @@
+/* === Main Topbar Container === */
+.topbar_container {
+	width: 100%;
+	height: 8vh;
+	background: linear-gradient(to right, #c33763, #1d2571);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+}
+
+
+/* === Left Section: Logo === */
+.topbar_left{
+	width: calc(100%/3);
+}
+.topbar_left .logo {
+	height: 40px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+/* === Center Section: Search Input === */
+.topbar_center {
+	display: flex;
+	justify-content: center;
+	width: calc(100%/3);
+}
+
+.search_bar {
+	width: 100%;
+	max-width: 400px;
+	height: 35px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.topbar_search_icon {
+	color: gray;
+}
+
+.searchInput {
+	border: none;
+	outline: none;
+	margin-left: 10px;
+	width: 100%;
+	background: transparent;
+	color: black;
+}
+
+/* === Right Section: Links, Icons and Profile Image === */
+.topbar_right {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: calc(100%/3);
+}
+
+.topbar_links {
+	display: flex;
+	gap: 2rem;
+	width: calc(100%/3);
+}
+
+.topbar_linklogin,
+.topbar_linkhome{
+	width: 100%;
+}
+
+.topbar_link {
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.tapbar_icons {
+	display: flex;
+	gap: 15px;
+}
+
+.tapbar_icons_item {
+	position: relative;
+	cursor: pointer;
+}
+
+.topbar_Icons_badge {
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+
+.topbar_img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+/* === Mobile Dropdown Menu === */
+.mobile_dropdown_menu {
+	position: absolute;
+	top: 60px;
+	right: 10px;
+	width: 80%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	padding: 15px;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.mobile_dropdown_menu .tapbar_links {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	color: #333;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.mobile_dropdown_menu .tapbar_icons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mobile_dropdown_menu .search_bar {
+	display: flex;
+}
+
+/* === Hide Elements on Small Screens === */
+@media screen and (max-width: 800px) {
+	.topbar_center,
+	.tapbar_links,
+	.tapbar_icons,
+	.search_bar {
+		display: none;
+	}
+}
+
+/* === Tablet Layout Adjustments === */
+@media (min-width: 801px) and (max-width: 1000px) {
+	.topbar_container {
+		gap: 1rem;
+	}
+}

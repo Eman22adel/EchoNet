@@ -1,0 +1,86 @@
+/* === Sidebar Container === */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+	height: calc(100vh - 8vh);
+	overflow: hidden scroll;
+}
+
+/* === Scrollbar Styling === */
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: #e8e8e8;
+}
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 10px;
+}
+
+/* === Sidebar List Styling === */
+.sidebar_list {
+	color: #1f2553;
+	padding: 1rem;
+	font-weight: 300;
+}
+
+/* === Show More Button Section === */
+.sidebar_listlink {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline;
+	padding: 0rem 5rem;
+}
+.sidebar_listbutton {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: #1d2571;
+	
+}
+
+/* === Sidebar List Items === */
+.sidebar_list_item {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem 0rem;
+}
+
+/* === Friends List Section === */
+.sidebar_friendslist {
+	position: relative;
+	padding-top: 1rem;
+	margin-top: 1rem;
+}
+.sidebar_friendslist::before {
+	content: "";
+	top: 0px;
+	left: 20px;
+	width: 250px;
+	height: 0px;
+	position: absolute;
+	border-bottom: #e8e8e8 0.1rem solid;
+}
+.sidebar_frienditem {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem;
+}
+.sidebar_friendimg {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+/* === Responsive: Hide Sidebar on Small Screens === */
+@media screen and (max-width: 1000px) {
+    .sidebar {
+		display: none;
+	}
+}

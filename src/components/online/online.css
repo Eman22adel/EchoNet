@@ -1,0 +1,30 @@
+
+.online {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+/* === Wrapper for Online Friend Image with Online Indicator === */
+.online_img {
+    position: relative;
+}
+
+/* === Online Status Dot === */
+.online .status {
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    border: .1rem white solid;
+}
+
+/* === Friend Profile Image Style === */
+.online img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,63 @@
+.loginWrapper {
+	display: flex;
+	height: 100vh;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 2rem;
+	background-color: #e8e8e8;
+	padding: 3rem;
+}
+.loginLeft {
+	padding: 1rem;
+	width: 25%;
+}
+.loginLeftLogo {
+	font-size: 4rem;
+	background: linear-gradient(to right, #c33763, #1d2571);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+}
+.loginRight {
+	width: 40%;
+}
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	gap: 0.7rem;
+}
+.loginInput {
+	height: 2rem;
+	width: 100%;
+	border-radius: 0.5rem;
+	border: 0.1rem #e8e8e8 solid;
+	padding: 1rem;
+}
+
+.loginSignbtn {
+	height: 6vh;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1.1rem;
+	width: 50%;
+	margin: auto;
+	color: #fff;
+	background-color: #1d2571;
+	margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+	.loginLeft {
+		display: none;
+	}
+}
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+	.loginLeft {
+		padding: 1rem;
+		width: 50%;
+	}
+}
