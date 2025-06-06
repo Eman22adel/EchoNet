@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EchoNet/static/css/main.312dd3c2.css",
+    "main.js": "/EchoNet/static/js/main.bf2cb92e.js",
+    "index.html": "/EchoNet/index.html",
+    "main.312dd3c2.css.map": "/EchoNet/static/css/main.312dd3c2.css.map",
+    "main.bf2cb92e.js.map": "/EchoNet/static/js/main.bf2cb92e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.312dd3c2.css",
+    "static/js/main.bf2cb92e.js"
+  ]
+}
