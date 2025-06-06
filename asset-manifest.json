@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Eman22adel/EchoNet/static/css/main.312dd3c2.css",
-    "main.js": "/Eman22adel/EchoNet/static/js/main.bf2cb92e.js",
-    "index.html": "/Eman22adel/EchoNet/index.html",
-    "main.312dd3c2.css.map": "/Eman22adel/EchoNet/static/css/main.312dd3c2.css.map",
-    "main.bf2cb92e.js.map": "/Eman22adel/EchoNet/static/js/main.bf2cb92e.js.map"
+    "main.css": "/EchoNet/static/css/main.312dd3c2.css",
+    "main.js": "/EchoNet/static/js/main.bf2cb92e.js",
+    "index.html": "/EchoNet/index.html",
+    "main.312dd3c2.css.map": "/EchoNet/static/css/main.312dd3c2.css.map",
+    "main.bf2cb92e.js.map": "/EchoNet/static/js/main.bf2cb92e.js.map"
   },
   "entrypoints": [
     "static/css/main.312dd3c2.css",
